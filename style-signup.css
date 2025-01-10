@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+.p2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+body {
+    background-image: url(./imgs/rm378-09.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-image: url(./imgs/rm378-09.jpg)  ;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    background: rgba(0, 91, 173, 0.3);
+    border-radius: 20px;
+
+}
+.lang{
+    float: right;
+    display: flex;
+    color: white;
+    float:right;
+    width: 30px;
+    height: 20px;
+    align-items: right;
+}
+.language{
+    float:right;
+    width: 30px;
+    height: 20px;
+    align-items: right;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
+.logo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 60px;
+}
+.signup-form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ece9e9;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: white;
+}
+
+input, select {
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: white;
+    background-color: #024d8a;
+}
+
+button.register-btn {
+    background-color: #0078D4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button.register-btn:hover {
+    background-color: #005A9E;
+}
+
+.privacy-text, .already-text {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #fffdfd;
+}
+
+.privacy-text a, .already-text a ,.checkbox{
+    color: #0078D4;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.privacy-text a:hover, .already-text a:hover {
+    text-decoration: underline;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.box{
+    margin-right: 3px;
+}
+
+

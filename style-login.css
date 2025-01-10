@@ -1,0 +1,130 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./imgs/rm378-09.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.div1 {
+    color: white;
+    width: 350px;
+    background: rgba(0, 91, 173, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.p1 {
+    display: inline;
+    font-size: 15px;
+}
+
+.lan {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.img1 {
+    height: 19px;
+    margin-right: 5px;
+}
+
+.img2 {
+    display: block;
+    margin: 10px auto;
+    width: 30%;
+}
+
+.hr1, .hr2 {
+    border-color: #4788ba;
+    margin: 10px 0;
+}
+
+.p2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    height: 28px;
+    margin-bottom: 20px;
+    background-color: #1b517a;
+    border: 1px solid #9ab2c5;
+    border-radius: 3px;
+    color: white;
+    padding-left: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 80%;
+    background-color: #0078D4;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.a1, .a2{
+    display: block;
+    color: #3498e5;
+    text-decoration:none;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.a3 {
+    margin-top: 5px;
+    display: block;
+    color: #3498e5;
+    text-decoration:none;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+.p3 {
+    display: inline;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .div1 {
+        width: 90%;
+    }
+
+    input, button {
+        width: 90%;
+    }
+}
